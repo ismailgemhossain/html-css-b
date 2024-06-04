@@ -1,0 +1,658 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+
+    body {
+        padding: 20px;
+        background-color: rgb(236, 231, 231);
+
+    }
+
+    section {
+        display: flex;
+        align-items: center;
+        gap: 20px;
+        flex-wrap: wrap;
+    }
+
+    article {
+        flex-basis: 370px;
+        flex-grow: 1;
+        padding: 15px;
+        background-color: white;
+        border-radius: 10px;
+
+        padding-bottom: 10px;
+    }
+
+    .foot {
+        display: flex;
+        align-items: center;
+        padding-top: 30px;
+        padding-bottom: 20px;
+    }
+
+    .foot img {
+        width: 50px;
+        border-radius: 50%;
+        border: 1px solid red;
+    }
+
+    .icon-box span {
+        font-size: 20px;
+        color: black;
+        font-weight: 700;
+        padding: 5px;
+    }
+
+    .box-icon .foot-img {
+        width: 15px;
+    }
+
+    .box-icon {
+        padding-left: 15px;
+    }
+
+    .artical {
+
+        background-image: url(https://wafilife-media.wafilife.com/uploads/2024/01/hayater-din-furole-200x300.jpg );
+        width: 350px;
+        height: 300px;
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+
+    .header-box {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        gap: 20px;
+    }
+
+    .flaticon img {
+        width: 20px;
+        margin-left: 120px;
+    }
+
+    .icon-box1 img {
+        width: 15px;
+
+    }
+
+    .icon-box1 {
+        display: flex;
+        align-items: center;
+        padding: 15px;
+    }
+
+    .icon-box1 span {
+
+        background-color: blue;
+    }
+
+    .bn span {
+        text-align: center;
+        padding: 7px;
+        margin-left: 10px;
+        font-size: 13px;
+        border-radius: 50%;
+        background-color: black;
+        color: aliceblue;
+        border: 2px solid greenyellow;
+    }
+
+    .bn {
+
+        padding: 10px;
+        padding-top: 210px;
+    }
+
+    .small-lin {
+        display: flex;
+        align-items: center;
+        gap: 12px;
+        padding-top: 20px;
+    }
+
+    .small-lin h6 {
+        color: rgb(97, 97, 241);
+        font-weight: 700;
+        font-size: 15px;
+    }
+
+    .hp h1 {
+        padding: 20px;
+        margin: 12px;
+    }
+
+    .hp p {
+        flex-wrap: wrap;
+
+    }
+
+    .footer-box {
+        display: flex;
+        align-items: center;
+        gap: 14px;
+
+        padding-top: 40px;
+    }
+
+    .max {
+        width: 20px;
+        border-radius: 40%;
+        background-color: rgb(198, 207, 216);
+    }
+
+    .small {
+        padding: 10px;
+    }
+</style>
+
+<body>
+    <section>
+        <article>
+            <div class="header">
+                <!-- content 1 -->
+                <div class="foot">
+                    <img src="https://preview.keenthemes.com/metronic8/demo1/assets/media/avatars/300-7.jpg" alt="">
+                    <div class="box-icon">
+                        <div class="icon-box">
+                            <img class="foot-img" src="https://cdn-icons-png.flaticon.com/128/11450/11450152.png"
+                                alt="">
+                            <span>Nelson</span>
+                        </div>
+                        <div class="header-box">
+                            <img class="foot-img" src="https://cdn-icons-png.flaticon.com/128/10028/10028413.png"
+                                alt="">
+                            <span> 19 subscriber </span>
+                            <div class="flaticon">
+                                <img src="https://cdn-icons-png.flaticon.com/128/8276/8276514.png" alt="">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- content2 -->
+                <div class="artical">
+                    <div class="icon-box1">
+                        <img src="https://cdn-icons-png.flaticon.com/128/149/149222.png" alt="">
+                        <span>#33</span>
+                    </div>
+
+                    <div class="bn">
+                        <span> 90<sup>%</sup>
+                    </div>
+                </div>
+                <div class="small">
+                    <div class="small-lin">
+                        <h6>News</h6> -
+                        <span>1 years ago</span>
+                    </div>
+                    <div class="hp">
+                        <h1> Genaration rent: jese aueh djkew kraw</h1>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum ipsa placeat dolor est
+                            possimus beatae dolorum quae nobis voluptates sapiente voluptatibus, minus expedita eveniet
+                            natus
+                            sit ipsam eaque provident ea.</p>
+                    </div>
+                    <div class="footer-box">
+                        <div class="min-img">
+                            <img class=" max" src="https://cdn-icons-png.flaticon.com/128/3670/3670159.png" alt="">
+                            <img class=" max" src="https://cdn-icons-png.flaticon.com/128/8915/8915905.png" alt="">
+                            <img class="max" src="https://cdn-icons-png.flaticon.com/128/1041/1041873.png" alt="">
+                            <img class="max" src="https://cdn-icons-png.flaticon.com/128/8915/8915905.png" alt="">
+                            <span> 10</span>
+                        </div>
+                        <div>
+                            <img class="max"
+                                src="https://t4.ftcdn.net/jpg/07/02/44/71/240_F_702447143_QYAPf195pr6CMfxtLhlo2VGc5dtJxIx3.jpg"
+                                alt="">
+                            <span>0 </span>
+                        </div>
+                        <div>
+                            <img class="max" src="https://cdn-icons-png.flaticon.com/128/11341/11341740.png" alt=""
+                                <span>
+                            4.8k
+                            viewe</span>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </article>
+
+
+
+        <article>
+            <div class="header">
+                <!-- content 1 -->
+                <div class="foot">
+                    <img src="https://preview.keenthemes.com/metronic8/demo1/assets/media/avatars/300-7.jpg" alt="">
+                    <div class="box-icon">
+                        <div class="icon-box">
+                            <img class="foot-img" src="https://cdn-icons-png.flaticon.com/128/11450/11450152.png"
+                                alt="">
+                            <span>Nelson</span>
+                        </div>
+                        <div class="header-box">
+                            <img class="foot-img" src="https://cdn-icons-png.flaticon.com/128/10028/10028413.png"
+                                alt="">
+                            <span> 19 subscriber </span>
+                            <div class="flaticon">
+                                <img src="https://cdn-icons-png.flaticon.com/128/8276/8276514.png" alt="">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- content2 -->
+                <div class="artical">
+                    <div class="icon-box1">
+                        <img src="https://cdn-icons-png.flaticon.com/128/149/149222.png" alt="">
+                        <span>#33</span>
+                    </div>
+
+                    <div class="bn">
+                        <span> 90<sup>%</sup>
+                    </div>
+                </div>
+                <div class="small">
+                    <div class="small-lin">
+                        <h6>News</h6> -
+                        <span>1 years ago</span>
+                    </div>
+                    <div class="hp">
+                        <h1> Genaration rent: jese aueh djkew kraw</h1>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum ipsa placeat dolor est
+                            possimus beatae dolorum quae nobis voluptates sapiente voluptatibus, minus expedita eveniet
+                            natus
+                            sit ipsam eaque provident ea.</p>
+                    </div>
+                    <div class="footer-box">
+                        <div class="min-img">
+                            <img class=" max" src="https://cdn-icons-png.flaticon.com/128/3670/3670159.png" alt="">
+                            <img class=" max" src="https://cdn-icons-png.flaticon.com/128/8915/8915905.png" alt="">
+                            <img class="max" src="https://cdn-icons-png.flaticon.com/128/1041/1041873.png" alt="">
+                            <img class="max" src="https://cdn-icons-png.flaticon.com/128/8915/8915905.png" alt="">
+                            <span> 10</span>
+                        </div>
+                        <div>
+                            <img class="max"
+                                src="https://t4.ftcdn.net/jpg/07/02/44/71/240_F_702447143_QYAPf195pr6CMfxtLhlo2VGc5dtJxIx3.jpg"
+                                alt="">
+                            <span>0 </span>
+                        </div>
+                        <div>
+                            <img class="max" src="https://cdn-icons-png.flaticon.com/128/11341/11341740.png" alt=""
+                                <span>
+                            4.8k
+                            viewe</span>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </article>
+        <article>
+            <div class="header">
+                <!-- content 1 -->
+                <div class="foot">
+                    <img src="https://preview.keenthemes.com/metronic8/demo1/assets/media/avatars/300-7.jpg" alt="">
+                    <div class="box-icon">
+                        <div class="icon-box">
+                            <img class="foot-img" src="https://cdn-icons-png.flaticon.com/128/11450/11450152.png"
+                                alt="">
+                            <span>Nelson</span>
+                        </div>
+                        <div class="header-box">
+                            <img class="foot-img" src="https://cdn-icons-png.flaticon.com/128/10028/10028413.png"
+                                alt="">
+                            <span> 19 subscriber </span>
+                            <div class="flaticon">
+                                <img src="https://cdn-icons-png.flaticon.com/128/8276/8276514.png" alt="">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- content2 -->
+                <div class="artical">
+                    <div class="icon-box1">
+                        <img src="https://cdn-icons-png.flaticon.com/128/149/149222.png" alt="">
+                        <span>#33</span>
+                    </div>
+
+                    <div class="bn">
+                        <span> 90<sup>%</sup>
+                    </div>
+                </div>
+                <div class="small">
+                    <div class="small-lin">
+                        <h6>News</h6> -
+                        <span>1 years ago</span>
+                    </div>
+                    <div class="hp">
+                        <h1> Genaration rent: jese aueh djkew kraw</h1>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum ipsa placeat dolor est
+                            possimus beatae dolorum quae nobis voluptates sapiente voluptatibus, minus expedita eveniet
+                            natus
+                            sit ipsam eaque provident ea.</p>
+                    </div>
+                    <div class="footer-box">
+                        <div class="min-img">
+                            <img class=" max" src="https://cdn-icons-png.flaticon.com/128/3670/3670159.png" alt="">
+                            <img class=" max" src="https://cdn-icons-png.flaticon.com/128/8915/8915905.png" alt="">
+                            <img class="max" src="https://cdn-icons-png.flaticon.com/128/1041/1041873.png" alt="">
+                            <img class="max" src="https://cdn-icons-png.flaticon.com/128/8915/8915905.png" alt="">
+                            <span> 10</span>
+                        </div>
+                        <div>
+                            <img class="max"
+                                src="https://t4.ftcdn.net/jpg/07/02/44/71/240_F_702447143_QYAPf195pr6CMfxtLhlo2VGc5dtJxIx3.jpg"
+                                alt="">
+                            <span>0 </span>
+                        </div>
+                        <div>
+                            <img class="max" src="https://cdn-icons-png.flaticon.com/128/11341/11341740.png" alt=""
+                                <span>
+                            4.8k
+                            viewe</span>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </article>
+        <article>
+            <div class="header">
+                <!-- content 1 -->
+                <div class="foot">
+                    <img src="https://preview.keenthemes.com/metronic8/demo1/assets/media/avatars/300-7.jpg" alt="">
+                    <div class="box-icon">
+                        <div class="icon-box">
+                            <img class="foot-img" src="https://cdn-icons-png.flaticon.com/128/11450/11450152.png"
+                                alt="">
+                            <span>Nelson</span>
+                        </div>
+                        <div class="header-box">
+                            <img class="foot-img" src="https://cdn-icons-png.flaticon.com/128/10028/10028413.png"
+                                alt="">
+                            <span> 19 subscriber </span>
+                            <div class="flaticon">
+                                <img src="https://cdn-icons-png.flaticon.com/128/8276/8276514.png" alt="">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- content2 -->
+                <div class="artical">
+                    <div class="icon-box1">
+                        <img src="https://cdn-icons-png.flaticon.com/128/149/149222.png" alt="">
+                        <span>#33</span>
+                    </div>
+
+                    <div class="bn">
+                        <span> 90<sup>%</sup>
+                    </div>
+                </div>
+                <div class="small">
+                    <div class="small-lin">
+                        <h6>News</h6> -
+                        <span>1 years ago</span>
+                    </div>
+                    <div class="hp">
+                        <h1> Genaration rent: jese aueh djkew kraw</h1>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum ipsa placeat dolor est
+                            possimus beatae dolorum quae nobis voluptates sapiente voluptatibus, minus expedita eveniet
+                            natus
+                            sit ipsam eaque provident ea.</p>
+                    </div>
+                    <div class="footer-box">
+                        <div class="min-img">
+                            <img class=" max" src="https://cdn-icons-png.flaticon.com/128/3670/3670159.png" alt="">
+                            <img class=" max" src="https://cdn-icons-png.flaticon.com/128/8915/8915905.png" alt="">
+                            <img class="max" src="https://cdn-icons-png.flaticon.com/128/1041/1041873.png" alt="">
+                            <img class="max" src="https://cdn-icons-png.flaticon.com/128/8915/8915905.png" alt="">
+                            <span> 10</span>
+                        </div>
+                        <div>
+                            <img class="max"
+                                src="https://t4.ftcdn.net/jpg/07/02/44/71/240_F_702447143_QYAPf195pr6CMfxtLhlo2VGc5dtJxIx3.jpg"
+                                alt="">
+                            <span>0 </span>
+                        </div>
+                        <div>
+                            <img class="max" src="https://cdn-icons-png.flaticon.com/128/11341/11341740.png" alt=""
+                                <span>
+                            4.8k
+                            viewe</span>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </article>
+        <article>
+            <div class="header">
+                <!-- content 1 -->
+                <div class="foot">
+                    <img src="https://preview.keenthemes.com/metronic8/demo1/assets/media/avatars/300-7.jpg" alt="">
+                    <div class="box-icon">
+                        <div class="icon-box">
+                            <img class="foot-img" src="https://cdn-icons-png.flaticon.com/128/11450/11450152.png"
+                                alt="">
+                            <span>Nelson</span>
+                        </div>
+                        <div class="header-box">
+                            <img class="foot-img" src="https://cdn-icons-png.flaticon.com/128/10028/10028413.png"
+                                alt="">
+                            <span> 19 subscriber </span>
+                            <div class="flaticon">
+                                <img src="https://cdn-icons-png.flaticon.com/128/8276/8276514.png" alt="">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- content2 -->
+                <div class="artical">
+                    <div class="icon-box1">
+                        <img src="https://cdn-icons-png.flaticon.com/128/149/149222.png" alt="">
+                        <span>#33</span>
+                    </div>
+
+                    <div class="bn">
+                        <span> 90<sup>%</sup>
+                    </div>
+                </div>
+                <div class="small">
+                    <div class="small-lin">
+                        <h6>News</h6> -
+                        <span>1 years ago</span>
+                    </div>
+                    <div class="hp">
+                        <h1> Genaration rent: jese aueh djkew kraw</h1>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum ipsa placeat dolor est
+                            possimus beatae dolorum quae nobis voluptates sapiente voluptatibus, minus expedita eveniet
+                            natus
+                            sit ipsam eaque provident ea.</p>
+                    </div>
+                    <div class="footer-box">
+                        <div class="min-img">
+                            <img class=" max" src="https://cdn-icons-png.flaticon.com/128/3670/3670159.png" alt="">
+                            <img class=" max" src="https://cdn-icons-png.flaticon.com/128/8915/8915905.png" alt="">
+                            <img class="max" src="https://cdn-icons-png.flaticon.com/128/1041/1041873.png" alt="">
+                            <img class="max" src="https://cdn-icons-png.flaticon.com/128/8915/8915905.png" alt="">
+                            <span> 10</span>
+                        </div>
+                        <div>
+                            <img class="max"
+                                src="https://t4.ftcdn.net/jpg/07/02/44/71/240_F_702447143_QYAPf195pr6CMfxtLhlo2VGc5dtJxIx3.jpg"
+                                alt="">
+                            <span>0 </span>
+                        </div>
+                        <div>
+                            <img class="max" src="https://cdn-icons-png.flaticon.com/128/11341/11341740.png" alt=""
+                                <span>
+                            4.8k
+                            viewe</span>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </article>
+        <article>
+            <div class="header">
+                <!-- content 1 -->
+                <div class="foot">
+                    <img src="https://preview.keenthemes.com/metronic8/demo1/assets/media/avatars/300-7.jpg" alt="">
+                    <div class="box-icon">
+                        <div class="icon-box">
+                            <img class="foot-img" src="https://cdn-icons-png.flaticon.com/128/11450/11450152.png"
+                                alt="">
+                            <span>Nelson</span>
+                        </div>
+                        <div class="header-box">
+                            <img class="foot-img" src="https://cdn-icons-png.flaticon.com/128/10028/10028413.png"
+                                alt="">
+                            <span> 19 subscriber </span>
+                            <div class="flaticon">
+                                <img src="https://cdn-icons-png.flaticon.com/128/8276/8276514.png" alt="">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- content2 -->
+                <div class="artical">
+                    <div class="icon-box1">
+                        <img src="https://cdn-icons-png.flaticon.com/128/149/149222.png" alt="">
+                        <span>#33</span>
+                    </div>
+
+                    <div class="bn">
+                        <span> 90<sup>%</sup>
+                    </div>
+                </div>
+                <div class="small">
+                    <div class="small-lin">
+                        <h6>News</h6> -
+                        <span>1 years ago</span>
+                    </div>
+                    <div class="hp">
+                        <h1> Genaration rent: jese aueh djkew kraw</h1>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum ipsa placeat dolor est
+                            possimus beatae dolorum quae nobis voluptates sapiente voluptatibus, minus expedita eveniet
+                            natus
+                            sit ipsam eaque provident ea.</p>
+                    </div>
+                    <div class="footer-box">
+                        <div class="min-img">
+                            <img class=" max" src="https://cdn-icons-png.flaticon.com/128/3670/3670159.png" alt="">
+                            <img class=" max" src="https://cdn-icons-png.flaticon.com/128/8915/8915905.png" alt="">
+                            <img class="max" src="https://cdn-icons-png.flaticon.com/128/1041/1041873.png" alt="">
+                            <img class="max" src="https://cdn-icons-png.flaticon.com/128/8915/8915905.png" alt="">
+                            <span> 10</span>
+                        </div>
+                        <div>
+                            <img class="max"
+                                src="https://t4.ftcdn.net/jpg/07/02/44/71/240_F_702447143_QYAPf195pr6CMfxtLhlo2VGc5dtJxIx3.jpg"
+                                alt="">
+                            <span>0 </span>
+                        </div>
+                        <div>
+                            <img class="max" src="https://cdn-icons-png.flaticon.com/128/11341/11341740.png" alt="">
+                                <span>
+                            4.8k
+                            viewe</span>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </article>
+        <article>
+            <div class="header">
+                <!-- content 1 -->
+                <div class="foot">
+                    <img src="https://preview.keenthemes.com/metronic8/demo1/assets/media/avatars/300-7.jpg" alt="">
+                    <div class="box-icon">
+                        <div class="icon-box">
+                            <img class="foot-img" src="https://cdn-icons-png.flaticon.com/128/11450/11450152.png"
+                                alt="">
+                            <span>Nelson</span>
+                        </div>
+                        <div class="header-box">
+                            <img class="foot-img" src="https://cdn-icons-png.flaticon.com/128/10028/10028413.png"
+                                alt="">
+                            <span> 19 subscriber </span>
+                            <div class="flaticon">
+                                <img src="https://cdn-icons-png.flaticon.com/128/8276/8276514.png" alt="">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- content2 -->
+                <div class="artical">
+                    <div class="icon-box1">
+                        <img src="https://cdn-icons-png.flaticon.com/128/149/149222.png" alt="">
+                        <span>#33</span>
+                    </div>
+
+                    <div class="bn">
+                        <span> 90<sup>%</sup>
+                    </div>
+                </div>
+                <div class="small">
+                    <div class="small-lin">
+                        <h6>News</h6> -
+                        <span>1 years ago</span>
+                    </div>
+                    <div class="hp">
+                        <h1> Genaration rent: jese aueh djkew kraw</h1>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum ipsa placeat dolor est
+                            possimus beatae dolorum quae nobis voluptates sapiente voluptatibus, minus expedita eveniet
+                            natus
+                            sit ipsam eaque provident ea.</p>
+                    </div>
+                    <div class="footer-box">
+                        <div class="min-img">
+                            <img class=" max" src="https://cdn-icons-png.flaticon.com/128/3670/3670159.png" alt="">
+                            <img class=" max" src="https://cdn-icons-png.flaticon.com/128/8915/8915905.png" alt="">
+                            <img class="max" src="https://cdn-icons-png.flaticon.com/128/1041/1041873.png" alt="">
+                            <img class="max" src="https://cdn-icons-png.flaticon.com/128/8915/8915905.png" alt="">
+                            <span> 10</span>
+                        </div>
+                        <div>
+                            <img class="max"
+                                src="https://t4.ftcdn.net/jpg/07/02/44/71/240_F_702447143_QYAPf195pr6CMfxtLhlo2VGc5dtJxIx3.jpg"
+                                alt="">
+                            <span>0 </span>
+                        </div>
+                        <div>
+                            <img class="max" src="https://cdn-icons-png.flaticon.com/128/11341/11341740.png" alt=""
+                                <span>
+                            4.8k
+                            viewe</span>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </article>
+
+    </section>
+
+
+
+</body>
+
+</html>

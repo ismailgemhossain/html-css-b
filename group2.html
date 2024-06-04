@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+        integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<style>
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+
+    body {
+        margin: 30px;
+        background-color: rgb(229, 230, 231);
+    }
+
+    .header {
+        border-bottom: 1px solid rgb(212, 203, 203);
+        padding-bottom: 15px;
+    }
+
+    .type {
+        
+        margin-top: 20px;
+        background-color: white;
+        padding: 10px;
+        border-radius: 4px;
+        margin-bottom: 20px;
+    }
+
+    .type input {
+       
+        border-radius: 30px;
+        width: 70%;
+        padding: 7px;
+    }
+
+    .type button {
+        border-radius: 15px;
+        padding: 5px;
+    }
+
+    .flex-box {
+        display: flex;
+        align-items: center;
+        gap: 25px;
+        flex-grow: 1;
+    }
+
+    .flex-line {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        gap: 10px;
+        padding: 15px 0px;
+    }
+
+    .first-box {
+        background-color: white;
+        padding: 20px;
+        padding-right: 160px;
+        border-radius: 4px;
+    }
+
+    .box1 {
+        display: flex;
+        align-items: center;
+        gap: 10px;
+        background-color: rgb(217, 217, 218);
+    }
+
+    .input-box {
+        background-color: white;
+        padding: 20px;
+        padding-left: 90px;
+        border-radius: 4px;
+    }
+
+    .btn {
+        display: flex;
+        align-items: center;
+        gap: 15px;
+        padding-right: 20px;
+    }
+
+    .btn button,
+    i {
+        background-color: white;
+        padding: 5px;
+    }
+
+    .btn .btn1 {
+        background-color: red;
+    }
+    .content1 {
+        display: flex;
+        gap: 14px;
+        align-items: center;
+        padding-left: 8px;
+    }
+
+    .imag-box {
+        width: 50px;
+    }
+
+    .imag-box img {
+        width: 100%;
+        border-radius: 50%;
+     
+    }
+
+    .countenar h2 {
+        font-size: 16px;
+        margin-bottom: 5px;
+        color: rgb(214, 35, 35);
+    }
+    .mini-flex{
+        display: flex;
+        align-items: center;
+     gap: 320px;
+       
+    }
+    .content{
+        background-color: white;
+        padding: 15px;
+        border-radius: 4px;
+    }
+    article{
+        padding-bottom: 15px;
+    }
+    .from{
+        flex-wrap: wrap;
+        width: 700px;
+
+    }
+</style>
+
+<body>
+    <div class="from">
+        <div class="header">
+            <h1>Groups</h1>
+        </div>
+        <div class="type">
+            <input type="text" name="" id="" placeholder=" search group ">
+            <button> search</button>
+        </div>
+        <div class="flex-box">
+            <div class="first-box">
+                <div class="box1">
+                    <p>All groups</p> <span>38</span>
+
+                </div>
+            </div>
+
+            <div class="input-box">
+
+                <div class="box2">
+                    <label for="pet-select">Choose a pet:</label>
+
+                    <select id="pet-select">
+                        <option value=""> Last Active</option>
+                        <option value="dog">Dog</option>
+                        <option value="cat">Cat</option>
+                    </select>
+                </div>
+            </div>
+        </div>
+
+        <div class="flex-line">
+            <div>
+                <span>viwing 1-22 to 38 group </span>
+
+            </div>
+
+            <div class="btn">
+                <button class="btn1">1</button>
+                <button>2</button>
+                <i class="fa-solid fa-arrow-right"></i>
+            </div>
+        </div>
+        <article>
+        <div class="content">
+            <div class="content1">
+                <div class="imag-box">
+                    <img src="https://preview.keenthemes.com/metronic8/demo1/assets/media/avatars/300-7.jpg" alt="">
+                </div>
+                <div class="countenar">
+                    <h2>Carles Nilson</h2>
+                     
+                    <div class="mini-flex">
+                       <p> a month ago</p>
+                        <span>puplic group/6 member</span>
+                    </div>
+                </div>
+            </div>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Repellendus sed unde amet beatae sint magnam
+                explicabo autem similique doloribus nisi quisquam et, nostrum quae recusandae ullam quasi eos. Enim,
+                eveniet.</p>
+        </div>
+
+       </article>
+        <div class="content">
+            <div class="content1">
+                <div class="imag-box">
+                    <img src="https://preview.keenthemes.com/metronic8/demo1/assets/media/avatars/300-7.jpg" alt="">
+                </div>
+                <div class="countenar">
+                    <h2>Carles Nilson</h2>
+                     
+                    <div class="mini-flex">
+                       <p> a month ago</p>
+                        <span>puplic group/6 member</span>
+                    </div>
+                </div>
+            </div>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Repellendus sed unde amet beatae sint magnam
+                explicabo autem similique doloribus nisi quisquam et, nostrum quae recusandae ullam quasi eos. Enim,
+                eveniet.</p>
+        </div>
+    </div>
+</body>
+
+</html>

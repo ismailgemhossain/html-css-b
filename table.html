@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+        integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<style>
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+
+    body {
+        margin: 20px;
+        background-color: rgba(193, 193, 221, 0.993);
+    }
+    .content{
+        width: 600px;
+        background-color: white;
+        padding: 20px;
+        border-radius: 4px;
+        min-width: 230px;
+        flex-wrap: wrap;
+    }
+
+    .header {
+        text-align: center;
+    }
+
+    .header h1 {
+        color: rgb(73, 73, 128);
+        margin-bottom: 7px;
+    }
+
+    .header p {
+        color: rgb(144, 144, 158);
+        font-size: 18px;
+        margin-bottom: 15px;
+    }
+
+    .name {
+        margin-bottom: 8px;
+    }
+
+    .name input {
+        width: 100%;
+        padding: 5px;
+        margin-top: 4px;
+        border-radius: 4px;
+    }
+
+    .text {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    
+    }
+    .text a{
+        text-decoration: none;
+    }
+
+    .inputs input {
+        width: 100%;
+        border-radius: 4px;
+        padding: 5px;
+        margin-bottom: 15px;
+    }
+
+    .btn {
+        text-align: center;
+        background-color: rgba(14, 170, 157, 0.5);
+        padding: 6px;
+        border-radius: 4px;
+        margin-top: 20px;
+    }
+    .btn a{
+        color: white;
+        text-decoration: none;
+    }
+    h3{
+        text-align: center;
+        margin-top: 20px;
+        margin-bottom:20px;
+    }
+    .footer{
+       
+        display: flex;
+        align-items: center;
+        gap: 10px;
+        justify-content: center;
+    }
+    .footer .btn1{
+        background-color: rgba(19, 5, 78, 0.5);
+        padding: 5px;
+        border-radius: 4px;
+    }
+    .footer .btn2{
+        background-color: rgb(204, 104, 11);
+        padding: 5px;
+        border-radius: 4px;
+    }
+    .footer .btn3{
+        background-color: rgb(12, 12, 15);
+        padding: 5px;
+        border-radius: 4px;
+        color: white;
+    }
+    .footer .btn4{
+        background-color: rgb(15, 119, 189);
+        padding: 5px;
+        border-radius: 4px;
+    }
+</style>
+
+<body>
+    <div class="content">
+        <div class="header">
+            <h1>Welcome back</h1>
+            <p>sign in to continue to velzon</p>
+        </div>
+        <form>
+            <div class="name">
+                <label for=""> Username</label> <br>
+
+                <input type="text" name="" id="" placeholder="Enter username">
+            </div>
+            <div class="inputs">
+                <div class="text">
+                    <label for="">Password</label>
+                    <a href=""> Forgot password</a>
+                </div> <br>
+                <input type="password" name="" id="" placeholder=" enter password">
+            </div>
+            <div>
+                <input type="checkbox" name="" id="">
+                <label for=""> Remamber me</label>
+            </div>
+            <div class="btn">
+                <a href="">Sign in</a> 
+            </div>
+          
+                <h3> Sign in with</h3>
+            
+            <div class="footer">
+                <button class="btn1"> <i class="fa-brands fa-facebook"></i></button>
+                <button class="btn2"><i class="fa-brands fa-google"></i> </button>
+                <button class="btn3" > <i class="fa-brands fa-github"></i></button>
+                <button class="btn4"> <i class="fa-brands fa-twitter"></i></button>
+            </div>
+        </form>
+    </div>
+</body>
+
+</html>

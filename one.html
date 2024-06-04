@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+        integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<style>
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+
+    body {
+        margin: 30px;
+    }
+
+    .content {
+        display: flex;
+    padding: 30px;
+        align-items: center;
+        flex-wrap: wrap;
+        background-color: rgb(235, 228, 241);
+    }
+.name{
+    flex-basis: 45%;
+    flex-grow: 1;
+}
+    .img-box img {
+        width: 400px;
+        height: 300px;
+        margin: 10px;
+    }
+.img-box{
+    text-align: right;
+}
+    .said-content {
+        width: 400px;
+        padding: 15px;
+    }
+ .said-content p{
+    padding: 15px 0px;
+    font-size: 18px;
+    font-weight: 400;
+ }
+    .said-content ul {
+        list-style: none;
+        margin-bottom: 15px;
+        
+    }
+    .said-content ul li{
+        padding: 7px;
+    }
+    .said-content a{
+        text-decoration: none;
+        border: 2px solid rgb(143, 70, 238);
+        padding: 6px;
+        border-radius: 10px;
+        margin-top: 15px;
+    }
+    .said-content:hover a{
+        background-color: blueviolet;
+    }
+    .said-content h2{
+        font-weight: 600;
+        font-size: 34px;
+    }
+</style>
+
+<body>
+    <div class="content">
+        <!-- content left  -->
+        <div class="img-box name">
+            <img src="https://dreamslms.dreamstechnologies.com/html/assets/img/share.png" alt="">
+        </div>
+        <!-- content right  -->
+        <div class="said-content name">
+            <h2>Want to share your knowledge? Join us a Mentor</h2>
+            <p>High-definition video is video of higher resolution and quality than standard-definition. While there is
+                no standardized meaning for high-definition, generally any video.</p>
+            <ul>
+                <li><i class="fa-solid fa-check"> </i>
+                Best Courses</li>
+
+                <li><i class="fa-solid fa-check"></i>
+                     Top rated Instructors</li>
+            </ul>
+            <a href=""> Read More</a>
+        </div>
+    </div>
+</body>
+
+</html>
